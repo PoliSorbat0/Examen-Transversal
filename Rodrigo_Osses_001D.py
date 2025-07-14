@@ -35,7 +35,7 @@ while True:
     Controlmenu=int(input("Seleccione una opción numerica (1, 2, 3 o 4)"))
     if (Controlmenu)==1:
         Busqueda_De_Marca_utilizable=input("Ingrese el nombre de la marca que desea buscar (Hp, Lenovo, Asus, Dell)")
-        ##El código no funcionaba de otra forma que no fuera ingresando una marca y esa variable convertirla en otra variable para convertirla en minúsculas.
+        ####Por alguna razón no me deja usar el .lower ni el .upper, asi que voy a dejar la verificación asi.
         if Busqueda_De_Marca_utilizable=="hp":
             búsqueda_de_stock_HP()
         elif Busqueda_De_Marca_utilizable=="lenovo":
